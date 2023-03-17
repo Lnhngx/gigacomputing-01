@@ -336,7 +336,7 @@ body .InnerGIGABYTEContent {
   width: 100%;
   min-height: 100vh;
   height: 115vh;
-  padding: 1rem 0;
+  /* padding: 1rem 0; */
   overflow: hidden;
   background: #e8ebed;
   /* background: #000; */
@@ -1089,5 +1089,15 @@ body .InnerGIGABYTEContent {
   }
   .InnerGIGABYTEContent .s07-text-block .s07-title {
     line-height: 2rem;
+  }
+}
+@media (max-width: 760px){
+  .InnerGIGABYTEContent .s02-title{
+    font-size: 1.5rem;
+    margin-bottom: 2%;
+    line-height: 1.5rem;
+  }
+  .InnerGIGABYTEContent .s02-text-1{
+    margin-bottom: 6%;
   }
 }
