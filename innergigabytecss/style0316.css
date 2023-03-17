@@ -213,6 +213,7 @@ table {
 @media screen and (max-width: 768px) {
   .content-card {
     padding-left: 1.5rem;
+    white-space: nowrap;
   }
   .InnerGIGABYTEContent .s07-img-wrap{
     display: flex;
@@ -233,7 +234,11 @@ table {
   }
   .InnerGIGABYTEContent .item-title-wrap {
     font-size: 1.5rem !important;
+    
 }
+ .InnerGIGABYTEContent .tab-pane {
+    width: auto !important;
+  }
   #s02-2 .item-block{
     display: flex;
     justify-content: center;
