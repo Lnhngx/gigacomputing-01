@@ -639,9 +639,9 @@ body .InnerGIGABYTEContent {
   .InnerGIGABYTEContent .w-md-50 {
     margin-left: 0rem;
   }
-  .InnerGIGABYTEContent .tab-pane {
+  /* .InnerGIGABYTEContent .tab-pane {
     width: auto !important;
-  }
+  } */
 }
 
 .InnerGIGABYTEContent .s07-wrap {
