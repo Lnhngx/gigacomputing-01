@@ -215,7 +215,7 @@ table {
     padding-left: 1.5rem;
     white-space: nowrap;
   }
-  .InnerGIGABYTEContent .s07-img-wrap{
+  .InnerGIGABYTEContent .s07-img-wrap {
     display: flex;
     justify-content: center;
   }
@@ -224,22 +224,21 @@ table {
     max-width: 120%;
     height: auto;
   }
-  .tab-img-wrap img{
+  .tab-img-wrap img {
     width: 150% !important;
     max-width: 150% !important;
   }
-  #s02-2 .s02-img-fluid{
-    width: 140% !important;
-    max-width: 140% !important;
+  #s02-2 .s02-img-fluid {
+    width: 130% !important;
+    max-width: 130% !important;
   }
   .InnerGIGABYTEContent .item-title-wrap {
     font-size: 1.5rem !important;
-    
-}
- .InnerGIGABYTEContent .tab-pane {
+  }
+  .InnerGIGABYTEContent .tab-pane {
     width: auto !important;
   }
-  #s02-2 .item-block{
+  #s02-2 .item-block {
     display: flex;
     justify-content: center;
   }
@@ -256,10 +255,34 @@ table {
 .InnerGIGABYTEContent .fade-in {
   animation: fade-in 0.75s ease 1 forwards;
 }
-@media screen and (max-width:465px ){
+@media screen and (max-width: 500px) {
   .InnerGIGABYTEContent .item-title-wrap {
     font-size: 1rem !important;
+  }
+  .InnerGIGABYTEContent .content-title {
+    font-size: 0.8rem !important;
+  }
+  .InnerGIGABYTEContent .content-title {
+    font-size: 0.8rem !important;
+  }
+  .InnerGIGABYTEContent .content-item {
+    font-size: 0.7rem !important;
+  }
+  
 }
+@media screen and (max-width: 600px) {
+  .InnerGIGABYTEContent .s06-title {
+    font-size: 2rem !important;
+  }
+  .InnerGIGABYTEContent .s06-item-title {
+    font-size: 1.2rem !important;
+  }
+  .InnerGIGABYTEContent .s06-items {
+    font-size: 0.8rem !important;
+  }
+  .InnerGIGABYTEContent .s08-svg {
+    margin-top: 5%;
+  }
 }
 @keyframes fade-in {
   from {
@@ -313,7 +336,7 @@ body .InnerGIGABYTEContent {
 /* .s09*/ {
   width: 100%;
   min-height: 100vh;
-  height: 100vh;
+  height: 115vh;
   padding: 1rem 0;
   overflow: hidden;
   background: #e8ebed;
@@ -338,6 +361,7 @@ body .InnerGIGABYTEContent {
 .InnerGIGABYTEContent .s01-title {
   font-size: 3rem;
   font-weight: 700;
+  justify-content: start;
 }
 .InnerGIGABYTEContent .s01-subtitle {
   font-weight: 500;
@@ -361,6 +385,7 @@ body .InnerGIGABYTEContent {
   }
   .InnerGIGABYTEContent .s01-title {
     font-size: 2rem;
+    justify-content: center;
   }
 }
 /* web 圓形區框 */
@@ -412,7 +437,7 @@ body .InnerGIGABYTEContent {
   background-size: cover;
   background-position: center 65%;
   width: 100%;
-  height: 100vh;
+  height: 115vh;
   position: absolute;
 }
 .InnerGIGABYTEContent .s03-content {
@@ -633,6 +658,7 @@ body .InnerGIGABYTEContent {
   .InnerGIGABYTEContent .s03-text {
     font-size: 1.2rem;
     line-height: 1.2rem;
+    margin-top: 6%;
   }
 
   .InnerGIGABYTEContent .s05 {
@@ -996,8 +1022,6 @@ body .InnerGIGABYTEContent {
   .InnerGIGABYTEContent .nav-block {
     display: block;
   }
-
-
 }
 
 .InnerGIGABYTEContent .nav-block .nav-list {
