@@ -1087,4 +1087,7 @@ body .InnerGIGABYTEContent {
   .InnerGIGABYTEContent .title-block {
     font-size: 0.9rem;
   }
+  .InnerGIGABYTEContent .s07-text-block .s07-title {
+    line-height: 2rem;
+  }
 }
